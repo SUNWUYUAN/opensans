@@ -35,19 +35,9 @@
               <v-toolbar color="primary" dark>启动网页版sans</v-toolbar>
               <div>
                 <div style="height: 300px;overflow: auto;">
-                  <v-btn class="ma-2" color="primary" href="url1  ">
-                    sans1
-                  </v-btn>  
-
-                  <v-btn class="ma-2" color="primary" href="url2  ">
-                    sans2
-                  </v-btn>
-
-                  <v-btn class="ma-2" color="primary" href="url3  ">
-                    sans3
-                  </v-btn>
+                  <v-btn class="ma-2" color="primary" href="http://jcw87.github.io/c2-sans-fight/">Sans</v-btn><v-btn class="ma-2" color="primary" href="https://mario1d240.github.io/error-sans-fight-demo/">Error 404 Sans</v-btn><v-btn class="ma-2" color="primary" href="https://meekuzo.github.io/Jotaro-Sans-Simulator/">Jotaro Sans(空条衫太郎)</v-btn><v-btn class="ma-2" color="primary" href="https://deleeeee.itch.io/undertalehard-mode-sans-fight-normal">Hard Mode Sans</v-btn><v-btn class="ma-2" color="primary" href="https://iknifeu.itch.io/underfell-sans-fight">Fell Sans</v-btn><v-btn class="ma-2" color="primary" href="https://fuck-time.github.io/CJ-bad-time-simulator/">Hard Mode Sans</v-btn><v-btn class="ma-2" color="primary" href="https://hyzq.github.io/Bee-Sans-fight3/">蜜蜂Sans</v-btn><v-btn class="ma-2" color="primary" href="https://deleeeee.itch.io/del-sans-fight-demo">DEL_Sans</v-btn><v-btn class="ma-2" color="primary" href="https://tjasbsdsbfhdf.itch.io/55555">NK!Sans(究极削弱)</v-btn><v-btn class="ma-2" color="primary" href="https://1742137113.github.io/haogesans/">Haoge Sans</v-btn>
                 </div>
-              </div>
+              </div>  
               <v-card-actions class="justify-end">
                 <v-btn color="primary" text @click="dialog = false">
                   取消
