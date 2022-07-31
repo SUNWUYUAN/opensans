@@ -11,21 +11,21 @@ else:
     www = []
 
 if (os.path.isfile("name.txt")):
-    f = open('name.txt', 'r')
+    f = open('name.txt', 'r',encoding='UTF-8')
     ls2 = f.readlines()
     name = [s.strip() for s in ls2]
     print(name)
 else:
     print('文件不存在')
     name = []
-
-# 添加输入的内容
-a = int(input('循环次数：'))
-for i in range(a):
-    name.append(input('输入名字：'))
-    www.append(input('输入网址：'))
-print(name)
-print(www)
+if input('添加？（y/n）') == 'y':
+    # 添加输入的内容
+    a = int(input('循环次数：'))
+    for i in range(a):
+        name.append(input('输入名字：'))
+        www.append(input('输入网址：'))
+    print(name)
+    print(www)
 
 # 写入文件
 f = open('html.txt', 'w')
